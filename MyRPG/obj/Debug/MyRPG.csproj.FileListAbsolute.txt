@@ -1,0 +1,6 @@
+c:\users\caarroniz\documents\visual studio 2013\Projects\MyRPG\MyRPG\bin\Debug\MyRPG.exe.config
+c:\users\caarroniz\documents\visual studio 2013\Projects\MyRPG\MyRPG\bin\Debug\MyRPG.exe
+c:\users\caarroniz\documents\visual studio 2013\Projects\MyRPG\MyRPG\bin\Debug\MyRPG.pdb
+c:\users\caarroniz\documents\visual studio 2013\Projects\MyRPG\MyRPG\obj\Debug\MyRPG.exe
+c:\users\caarroniz\documents\visual studio 2013\Projects\MyRPG\MyRPG\obj\Debug\MyRPG.pdb
+c:\users\caarroniz\documents\visual studio 2013\Projects\MyRPG\MyRPG\obj\Debug\MyRPG.csprojResolveAssemblyReference.cache
