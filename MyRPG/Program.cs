@@ -9,24 +9,25 @@ namespace MyRPG
     {
         static void Main(string[] args)
         {
-            string[] heros = { "1.- Elf", "2.- Wizard", "3.- Warrior", "4.- Exit" };
-            bool salirMenu = false;
+            bool salirmenu = false;
             Elfo elf = new Elfo();
-            Mago wiz = new Mago();
             Guerrero war = new Guerrero();
+            Mago wiz = new Mago();
 
-            while (!salirMenu)
+            while (!salirmenu)
             {
-                Console.WriteLine("Select your hero!!");
-                Console.WriteLine();
-                for (int i = 0; i < heros.Length; i++)
-                {
-                    Console.WriteLine(heros[i]);
-                }
-                Console.WriteLine();
+                Console.WriteLine("Choose your Hero!!");
+                Console.WriteLine("1.- Elf");
+                Console.WriteLine("2.- Wizard");
+                Console.WriteLine("3.- Warrior");
+                Console.WriteLine("0.- Exit");
                 int opc = Int32.Parse(Console.ReadLine());
+
                 switch (opc)
                 {
+                    case 0:
+                        salirmenu = true;
+                        break;
                     case 1:
                         elf.ElegirArma();
                         break;
@@ -36,13 +37,8 @@ namespace MyRPG
                     case 3:
                         war.ElegirArma();
                         break;
-                    case 4:
-                        salirMenu = true;
-                        break;
-                    default:
-                        Console.WriteLine("Choose a HERO!!");
-                        break;
-               }
+                }
+
             }
         }
     }

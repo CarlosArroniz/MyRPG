@@ -35,6 +35,9 @@ namespace MyRPG
             get { return wpn2; }
             set { wpn2 = value; }
         }
+
+
+
         public void ElegirArma()
         {
             Console.WriteLine();
